@@ -1,7 +1,6 @@
 CMakeFiles/mem_manage.dir/src/memlistnode.cpp.o: \
   /Users/snopzyz/Documents/GitHub/zyzSTL/src/memlistnode.cpp \
   /Users/snopzyz/Documents/GitHub/zyzSTL/src/../include/memlistnode.h \
-  /Users/snopzyz/Documents/GitHub/zyzSTL/src/../include/../src/memlistnode.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/cstdio \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__assert \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__config \

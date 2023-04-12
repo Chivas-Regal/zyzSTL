@@ -69,135 +69,120 @@ include CMakeFiles/mem_manage.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/mem_manage.dir/flags.make
 
-CMakeFiles/mem_manage.dir/main.cpp.o: CMakeFiles/mem_manage.dir/flags.make
-CMakeFiles/mem_manage.dir/main.cpp.o: /Users/snopzyz/Documents/GitHub/zyzSTL/main.cpp
-CMakeFiles/mem_manage.dir/main.cpp.o: CMakeFiles/mem_manage.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/snopzyz/Documents/GitHub/zyzSTL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/mem_manage.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mem_manage.dir/main.cpp.o -MF CMakeFiles/mem_manage.dir/main.cpp.o.d -o CMakeFiles/mem_manage.dir/main.cpp.o -c /Users/snopzyz/Documents/GitHub/zyzSTL/main.cpp
-
-CMakeFiles/mem_manage.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mem_manage.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/snopzyz/Documents/GitHub/zyzSTL/main.cpp > CMakeFiles/mem_manage.dir/main.cpp.i
-
-CMakeFiles/mem_manage.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mem_manage.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/snopzyz/Documents/GitHub/zyzSTL/main.cpp -o CMakeFiles/mem_manage.dir/main.cpp.s
-
 CMakeFiles/mem_manage.dir/src/allocator.cpp.o: CMakeFiles/mem_manage.dir/flags.make
 CMakeFiles/mem_manage.dir/src/allocator.cpp.o: /Users/snopzyz/Documents/GitHub/zyzSTL/src/allocator.cpp
 CMakeFiles/mem_manage.dir/src/allocator.cpp.o: CMakeFiles/mem_manage.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/snopzyz/Documents/GitHub/zyzSTL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/mem_manage.dir/src/allocator.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mem_manage.dir/src/allocator.cpp.o -MF CMakeFiles/mem_manage.dir/src/allocator.cpp.o.d -o CMakeFiles/mem_manage.dir/src/allocator.cpp.o -c /Users/snopzyz/Documents/GitHub/zyzSTL/src/allocator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/snopzyz/Documents/GitHub/zyzSTL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/mem_manage.dir/src/allocator.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mem_manage.dir/src/allocator.cpp.o -MF CMakeFiles/mem_manage.dir/src/allocator.cpp.o.d -o CMakeFiles/mem_manage.dir/src/allocator.cpp.o -c /Users/snopzyz/Documents/GitHub/zyzSTL/src/allocator.cpp
 
 CMakeFiles/mem_manage.dir/src/allocator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mem_manage.dir/src/allocator.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/snopzyz/Documents/GitHub/zyzSTL/src/allocator.cpp > CMakeFiles/mem_manage.dir/src/allocator.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/snopzyz/Documents/GitHub/zyzSTL/src/allocator.cpp > CMakeFiles/mem_manage.dir/src/allocator.cpp.i
 
 CMakeFiles/mem_manage.dir/src/allocator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mem_manage.dir/src/allocator.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/snopzyz/Documents/GitHub/zyzSTL/src/allocator.cpp -o CMakeFiles/mem_manage.dir/src/allocator.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/snopzyz/Documents/GitHub/zyzSTL/src/allocator.cpp -o CMakeFiles/mem_manage.dir/src/allocator.cpp.s
 
 CMakeFiles/mem_manage.dir/src/memlist.cpp.o: CMakeFiles/mem_manage.dir/flags.make
 CMakeFiles/mem_manage.dir/src/memlist.cpp.o: /Users/snopzyz/Documents/GitHub/zyzSTL/src/memlist.cpp
 CMakeFiles/mem_manage.dir/src/memlist.cpp.o: CMakeFiles/mem_manage.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/snopzyz/Documents/GitHub/zyzSTL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/mem_manage.dir/src/memlist.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mem_manage.dir/src/memlist.cpp.o -MF CMakeFiles/mem_manage.dir/src/memlist.cpp.o.d -o CMakeFiles/mem_manage.dir/src/memlist.cpp.o -c /Users/snopzyz/Documents/GitHub/zyzSTL/src/memlist.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/snopzyz/Documents/GitHub/zyzSTL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/mem_manage.dir/src/memlist.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mem_manage.dir/src/memlist.cpp.o -MF CMakeFiles/mem_manage.dir/src/memlist.cpp.o.d -o CMakeFiles/mem_manage.dir/src/memlist.cpp.o -c /Users/snopzyz/Documents/GitHub/zyzSTL/src/memlist.cpp
 
 CMakeFiles/mem_manage.dir/src/memlist.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mem_manage.dir/src/memlist.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/snopzyz/Documents/GitHub/zyzSTL/src/memlist.cpp > CMakeFiles/mem_manage.dir/src/memlist.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/snopzyz/Documents/GitHub/zyzSTL/src/memlist.cpp > CMakeFiles/mem_manage.dir/src/memlist.cpp.i
 
 CMakeFiles/mem_manage.dir/src/memlist.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mem_manage.dir/src/memlist.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/snopzyz/Documents/GitHub/zyzSTL/src/memlist.cpp -o CMakeFiles/mem_manage.dir/src/memlist.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/snopzyz/Documents/GitHub/zyzSTL/src/memlist.cpp -o CMakeFiles/mem_manage.dir/src/memlist.cpp.s
 
 CMakeFiles/mem_manage.dir/src/memlist_bf.cpp.o: CMakeFiles/mem_manage.dir/flags.make
 CMakeFiles/mem_manage.dir/src/memlist_bf.cpp.o: /Users/snopzyz/Documents/GitHub/zyzSTL/src/memlist_bf.cpp
 CMakeFiles/mem_manage.dir/src/memlist_bf.cpp.o: CMakeFiles/mem_manage.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/snopzyz/Documents/GitHub/zyzSTL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/mem_manage.dir/src/memlist_bf.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mem_manage.dir/src/memlist_bf.cpp.o -MF CMakeFiles/mem_manage.dir/src/memlist_bf.cpp.o.d -o CMakeFiles/mem_manage.dir/src/memlist_bf.cpp.o -c /Users/snopzyz/Documents/GitHub/zyzSTL/src/memlist_bf.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/snopzyz/Documents/GitHub/zyzSTL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/mem_manage.dir/src/memlist_bf.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mem_manage.dir/src/memlist_bf.cpp.o -MF CMakeFiles/mem_manage.dir/src/memlist_bf.cpp.o.d -o CMakeFiles/mem_manage.dir/src/memlist_bf.cpp.o -c /Users/snopzyz/Documents/GitHub/zyzSTL/src/memlist_bf.cpp
 
 CMakeFiles/mem_manage.dir/src/memlist_bf.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mem_manage.dir/src/memlist_bf.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/snopzyz/Documents/GitHub/zyzSTL/src/memlist_bf.cpp > CMakeFiles/mem_manage.dir/src/memlist_bf.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/snopzyz/Documents/GitHub/zyzSTL/src/memlist_bf.cpp > CMakeFiles/mem_manage.dir/src/memlist_bf.cpp.i
 
 CMakeFiles/mem_manage.dir/src/memlist_bf.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mem_manage.dir/src/memlist_bf.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/snopzyz/Documents/GitHub/zyzSTL/src/memlist_bf.cpp -o CMakeFiles/mem_manage.dir/src/memlist_bf.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/snopzyz/Documents/GitHub/zyzSTL/src/memlist_bf.cpp -o CMakeFiles/mem_manage.dir/src/memlist_bf.cpp.s
 
 CMakeFiles/mem_manage.dir/src/memlist_ff.cpp.o: CMakeFiles/mem_manage.dir/flags.make
 CMakeFiles/mem_manage.dir/src/memlist_ff.cpp.o: /Users/snopzyz/Documents/GitHub/zyzSTL/src/memlist_ff.cpp
 CMakeFiles/mem_manage.dir/src/memlist_ff.cpp.o: CMakeFiles/mem_manage.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/snopzyz/Documents/GitHub/zyzSTL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/mem_manage.dir/src/memlist_ff.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mem_manage.dir/src/memlist_ff.cpp.o -MF CMakeFiles/mem_manage.dir/src/memlist_ff.cpp.o.d -o CMakeFiles/mem_manage.dir/src/memlist_ff.cpp.o -c /Users/snopzyz/Documents/GitHub/zyzSTL/src/memlist_ff.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/snopzyz/Documents/GitHub/zyzSTL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/mem_manage.dir/src/memlist_ff.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mem_manage.dir/src/memlist_ff.cpp.o -MF CMakeFiles/mem_manage.dir/src/memlist_ff.cpp.o.d -o CMakeFiles/mem_manage.dir/src/memlist_ff.cpp.o -c /Users/snopzyz/Documents/GitHub/zyzSTL/src/memlist_ff.cpp
 
 CMakeFiles/mem_manage.dir/src/memlist_ff.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mem_manage.dir/src/memlist_ff.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/snopzyz/Documents/GitHub/zyzSTL/src/memlist_ff.cpp > CMakeFiles/mem_manage.dir/src/memlist_ff.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/snopzyz/Documents/GitHub/zyzSTL/src/memlist_ff.cpp > CMakeFiles/mem_manage.dir/src/memlist_ff.cpp.i
 
 CMakeFiles/mem_manage.dir/src/memlist_ff.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mem_manage.dir/src/memlist_ff.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/snopzyz/Documents/GitHub/zyzSTL/src/memlist_ff.cpp -o CMakeFiles/mem_manage.dir/src/memlist_ff.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/snopzyz/Documents/GitHub/zyzSTL/src/memlist_ff.cpp -o CMakeFiles/mem_manage.dir/src/memlist_ff.cpp.s
 
 CMakeFiles/mem_manage.dir/src/memlist_wf.cpp.o: CMakeFiles/mem_manage.dir/flags.make
 CMakeFiles/mem_manage.dir/src/memlist_wf.cpp.o: /Users/snopzyz/Documents/GitHub/zyzSTL/src/memlist_wf.cpp
 CMakeFiles/mem_manage.dir/src/memlist_wf.cpp.o: CMakeFiles/mem_manage.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/snopzyz/Documents/GitHub/zyzSTL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/mem_manage.dir/src/memlist_wf.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mem_manage.dir/src/memlist_wf.cpp.o -MF CMakeFiles/mem_manage.dir/src/memlist_wf.cpp.o.d -o CMakeFiles/mem_manage.dir/src/memlist_wf.cpp.o -c /Users/snopzyz/Documents/GitHub/zyzSTL/src/memlist_wf.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/snopzyz/Documents/GitHub/zyzSTL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/mem_manage.dir/src/memlist_wf.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mem_manage.dir/src/memlist_wf.cpp.o -MF CMakeFiles/mem_manage.dir/src/memlist_wf.cpp.o.d -o CMakeFiles/mem_manage.dir/src/memlist_wf.cpp.o -c /Users/snopzyz/Documents/GitHub/zyzSTL/src/memlist_wf.cpp
 
 CMakeFiles/mem_manage.dir/src/memlist_wf.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mem_manage.dir/src/memlist_wf.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/snopzyz/Documents/GitHub/zyzSTL/src/memlist_wf.cpp > CMakeFiles/mem_manage.dir/src/memlist_wf.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/snopzyz/Documents/GitHub/zyzSTL/src/memlist_wf.cpp > CMakeFiles/mem_manage.dir/src/memlist_wf.cpp.i
 
 CMakeFiles/mem_manage.dir/src/memlist_wf.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mem_manage.dir/src/memlist_wf.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/snopzyz/Documents/GitHub/zyzSTL/src/memlist_wf.cpp -o CMakeFiles/mem_manage.dir/src/memlist_wf.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/snopzyz/Documents/GitHub/zyzSTL/src/memlist_wf.cpp -o CMakeFiles/mem_manage.dir/src/memlist_wf.cpp.s
 
 CMakeFiles/mem_manage.dir/src/memlistnode.cpp.o: CMakeFiles/mem_manage.dir/flags.make
 CMakeFiles/mem_manage.dir/src/memlistnode.cpp.o: /Users/snopzyz/Documents/GitHub/zyzSTL/src/memlistnode.cpp
 CMakeFiles/mem_manage.dir/src/memlistnode.cpp.o: CMakeFiles/mem_manage.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/snopzyz/Documents/GitHub/zyzSTL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/mem_manage.dir/src/memlistnode.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mem_manage.dir/src/memlistnode.cpp.o -MF CMakeFiles/mem_manage.dir/src/memlistnode.cpp.o.d -o CMakeFiles/mem_manage.dir/src/memlistnode.cpp.o -c /Users/snopzyz/Documents/GitHub/zyzSTL/src/memlistnode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/snopzyz/Documents/GitHub/zyzSTL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/mem_manage.dir/src/memlistnode.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mem_manage.dir/src/memlistnode.cpp.o -MF CMakeFiles/mem_manage.dir/src/memlistnode.cpp.o.d -o CMakeFiles/mem_manage.dir/src/memlistnode.cpp.o -c /Users/snopzyz/Documents/GitHub/zyzSTL/src/memlistnode.cpp
 
 CMakeFiles/mem_manage.dir/src/memlistnode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mem_manage.dir/src/memlistnode.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/snopzyz/Documents/GitHub/zyzSTL/src/memlistnode.cpp > CMakeFiles/mem_manage.dir/src/memlistnode.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/snopzyz/Documents/GitHub/zyzSTL/src/memlistnode.cpp > CMakeFiles/mem_manage.dir/src/memlistnode.cpp.i
 
 CMakeFiles/mem_manage.dir/src/memlistnode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mem_manage.dir/src/memlistnode.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/snopzyz/Documents/GitHub/zyzSTL/src/memlistnode.cpp -o CMakeFiles/mem_manage.dir/src/memlistnode.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/snopzyz/Documents/GitHub/zyzSTL/src/memlistnode.cpp -o CMakeFiles/mem_manage.dir/src/memlistnode.cpp.s
 
 CMakeFiles/mem_manage.dir/src/mempool.cpp.o: CMakeFiles/mem_manage.dir/flags.make
 CMakeFiles/mem_manage.dir/src/mempool.cpp.o: /Users/snopzyz/Documents/GitHub/zyzSTL/src/mempool.cpp
 CMakeFiles/mem_manage.dir/src/mempool.cpp.o: CMakeFiles/mem_manage.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/snopzyz/Documents/GitHub/zyzSTL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/mem_manage.dir/src/mempool.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mem_manage.dir/src/mempool.cpp.o -MF CMakeFiles/mem_manage.dir/src/mempool.cpp.o.d -o CMakeFiles/mem_manage.dir/src/mempool.cpp.o -c /Users/snopzyz/Documents/GitHub/zyzSTL/src/mempool.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/snopzyz/Documents/GitHub/zyzSTL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/mem_manage.dir/src/mempool.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mem_manage.dir/src/mempool.cpp.o -MF CMakeFiles/mem_manage.dir/src/mempool.cpp.o.d -o CMakeFiles/mem_manage.dir/src/mempool.cpp.o -c /Users/snopzyz/Documents/GitHub/zyzSTL/src/mempool.cpp
 
 CMakeFiles/mem_manage.dir/src/mempool.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mem_manage.dir/src/mempool.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/snopzyz/Documents/GitHub/zyzSTL/src/mempool.cpp > CMakeFiles/mem_manage.dir/src/mempool.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/snopzyz/Documents/GitHub/zyzSTL/src/mempool.cpp > CMakeFiles/mem_manage.dir/src/mempool.cpp.i
 
 CMakeFiles/mem_manage.dir/src/mempool.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mem_manage.dir/src/mempool.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/snopzyz/Documents/GitHub/zyzSTL/src/mempool.cpp -o CMakeFiles/mem_manage.dir/src/mempool.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/snopzyz/Documents/GitHub/zyzSTL/src/mempool.cpp -o CMakeFiles/mem_manage.dir/src/mempool.cpp.s
 
 CMakeFiles/mem_manage.dir/src/vector.cpp.o: CMakeFiles/mem_manage.dir/flags.make
 CMakeFiles/mem_manage.dir/src/vector.cpp.o: /Users/snopzyz/Documents/GitHub/zyzSTL/src/vector.cpp
 CMakeFiles/mem_manage.dir/src/vector.cpp.o: CMakeFiles/mem_manage.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/snopzyz/Documents/GitHub/zyzSTL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/mem_manage.dir/src/vector.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mem_manage.dir/src/vector.cpp.o -MF CMakeFiles/mem_manage.dir/src/vector.cpp.o.d -o CMakeFiles/mem_manage.dir/src/vector.cpp.o -c /Users/snopzyz/Documents/GitHub/zyzSTL/src/vector.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/snopzyz/Documents/GitHub/zyzSTL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/mem_manage.dir/src/vector.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mem_manage.dir/src/vector.cpp.o -MF CMakeFiles/mem_manage.dir/src/vector.cpp.o.d -o CMakeFiles/mem_manage.dir/src/vector.cpp.o -c /Users/snopzyz/Documents/GitHub/zyzSTL/src/vector.cpp
 
 CMakeFiles/mem_manage.dir/src/vector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mem_manage.dir/src/vector.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/snopzyz/Documents/GitHub/zyzSTL/src/vector.cpp > CMakeFiles/mem_manage.dir/src/vector.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/snopzyz/Documents/GitHub/zyzSTL/src/vector.cpp > CMakeFiles/mem_manage.dir/src/vector.cpp.i
 
 CMakeFiles/mem_manage.dir/src/vector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mem_manage.dir/src/vector.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/snopzyz/Documents/GitHub/zyzSTL/src/vector.cpp -o CMakeFiles/mem_manage.dir/src/vector.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/snopzyz/Documents/GitHub/zyzSTL/src/vector.cpp -o CMakeFiles/mem_manage.dir/src/vector.cpp.s
 
 # Object files for target mem_manage
 mem_manage_OBJECTS = \
-"CMakeFiles/mem_manage.dir/main.cpp.o" \
 "CMakeFiles/mem_manage.dir/src/allocator.cpp.o" \
 "CMakeFiles/mem_manage.dir/src/memlist.cpp.o" \
 "CMakeFiles/mem_manage.dir/src/memlist_bf.cpp.o" \
@@ -210,22 +195,21 @@ mem_manage_OBJECTS = \
 # External object files for target mem_manage
 mem_manage_EXTERNAL_OBJECTS =
 
-mem_manage: CMakeFiles/mem_manage.dir/main.cpp.o
-mem_manage: CMakeFiles/mem_manage.dir/src/allocator.cpp.o
-mem_manage: CMakeFiles/mem_manage.dir/src/memlist.cpp.o
-mem_manage: CMakeFiles/mem_manage.dir/src/memlist_bf.cpp.o
-mem_manage: CMakeFiles/mem_manage.dir/src/memlist_ff.cpp.o
-mem_manage: CMakeFiles/mem_manage.dir/src/memlist_wf.cpp.o
-mem_manage: CMakeFiles/mem_manage.dir/src/memlistnode.cpp.o
-mem_manage: CMakeFiles/mem_manage.dir/src/mempool.cpp.o
-mem_manage: CMakeFiles/mem_manage.dir/src/vector.cpp.o
-mem_manage: CMakeFiles/mem_manage.dir/build.make
-mem_manage: CMakeFiles/mem_manage.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/snopzyz/Documents/GitHub/zyzSTL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable mem_manage"
+/Users/snopzyz/Documents/GitHub/zyzSTL/lib/libmem_manage.dylib: CMakeFiles/mem_manage.dir/src/allocator.cpp.o
+/Users/snopzyz/Documents/GitHub/zyzSTL/lib/libmem_manage.dylib: CMakeFiles/mem_manage.dir/src/memlist.cpp.o
+/Users/snopzyz/Documents/GitHub/zyzSTL/lib/libmem_manage.dylib: CMakeFiles/mem_manage.dir/src/memlist_bf.cpp.o
+/Users/snopzyz/Documents/GitHub/zyzSTL/lib/libmem_manage.dylib: CMakeFiles/mem_manage.dir/src/memlist_ff.cpp.o
+/Users/snopzyz/Documents/GitHub/zyzSTL/lib/libmem_manage.dylib: CMakeFiles/mem_manage.dir/src/memlist_wf.cpp.o
+/Users/snopzyz/Documents/GitHub/zyzSTL/lib/libmem_manage.dylib: CMakeFiles/mem_manage.dir/src/memlistnode.cpp.o
+/Users/snopzyz/Documents/GitHub/zyzSTL/lib/libmem_manage.dylib: CMakeFiles/mem_manage.dir/src/mempool.cpp.o
+/Users/snopzyz/Documents/GitHub/zyzSTL/lib/libmem_manage.dylib: CMakeFiles/mem_manage.dir/src/vector.cpp.o
+/Users/snopzyz/Documents/GitHub/zyzSTL/lib/libmem_manage.dylib: CMakeFiles/mem_manage.dir/build.make
+/Users/snopzyz/Documents/GitHub/zyzSTL/lib/libmem_manage.dylib: CMakeFiles/mem_manage.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/snopzyz/Documents/GitHub/zyzSTL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX shared library /Users/snopzyz/Documents/GitHub/zyzSTL/lib/libmem_manage.dylib"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mem_manage.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/mem_manage.dir/build: mem_manage
+CMakeFiles/mem_manage.dir/build: /Users/snopzyz/Documents/GitHub/zyzSTL/lib/libmem_manage.dylib
 .PHONY : CMakeFiles/mem_manage.dir/build
 
 CMakeFiles/mem_manage.dir/clean:

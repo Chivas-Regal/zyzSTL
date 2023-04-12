@@ -1,5 +1,4 @@
 #include "../include/memlist.h"
-#include "memlist.h"
 
 #include <iomanip>
 #include <iostream>

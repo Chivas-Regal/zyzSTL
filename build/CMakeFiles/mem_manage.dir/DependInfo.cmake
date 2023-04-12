@@ -8,7 +8,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/snopzyz/Documents/GitHub/zyzSTL/main.cpp" "CMakeFiles/mem_manage.dir/main.cpp.o" "gcc" "CMakeFiles/mem_manage.dir/main.cpp.o.d"
   "/Users/snopzyz/Documents/GitHub/zyzSTL/src/allocator.cpp" "CMakeFiles/mem_manage.dir/src/allocator.cpp.o" "gcc" "CMakeFiles/mem_manage.dir/src/allocator.cpp.o.d"
   "/Users/snopzyz/Documents/GitHub/zyzSTL/src/memlist.cpp" "CMakeFiles/mem_manage.dir/src/memlist.cpp.o" "gcc" "CMakeFiles/mem_manage.dir/src/memlist.cpp.o.d"
   "/Users/snopzyz/Documents/GitHub/zyzSTL/src/memlist_bf.cpp" "CMakeFiles/mem_manage.dir/src/memlist_bf.cpp.o" "gcc" "CMakeFiles/mem_manage.dir/src/memlist_bf.cpp.o.d"

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/mem_manage.dir/main.cpp.o"
-  "CMakeFiles/mem_manage.dir/main.cpp.o.d"
+  "/Users/snopzyz/Documents/GitHub/zyzSTL/lib/libmem_manage.dylib"
+  "/Users/snopzyz/Documents/GitHub/zyzSTL/lib/libmem_manage.pdb"
   "CMakeFiles/mem_manage.dir/src/allocator.cpp.o"
   "CMakeFiles/mem_manage.dir/src/allocator.cpp.o.d"
   "CMakeFiles/mem_manage.dir/src/memlist.cpp.o"
@@ -17,8 +17,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/mem_manage.dir/src/mempool.cpp.o.d"
   "CMakeFiles/mem_manage.dir/src/vector.cpp.o"
   "CMakeFiles/mem_manage.dir/src/vector.cpp.o.d"
-  "mem_manage"
-  "mem_manage.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

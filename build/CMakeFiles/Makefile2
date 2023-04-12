@@ -64,6 +64,7 @@ CMAKE_BINARY_DIR = /Users/snopzyz/Documents/GitHub/zyzSTL/build
 
 # The main recursive "all" target.
 all: CMakeFiles/mem_manage.dir/all
+all: CMakeFiles/stllib.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -72,6 +73,7 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/mem_manage.dir/clean
+clean: CMakeFiles/stllib.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -81,12 +83,12 @@ clean: CMakeFiles/mem_manage.dir/clean
 CMakeFiles/mem_manage.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_manage.dir/build.make CMakeFiles/mem_manage.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_manage.dir/build.make CMakeFiles/mem_manage.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/snopzyz/Documents/GitHub/zyzSTL/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10 "Built target mem_manage"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/snopzyz/Documents/GitHub/zyzSTL/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target mem_manage"
 .PHONY : CMakeFiles/mem_manage.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/mem_manage.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/snopzyz/Documents/GitHub/zyzSTL/build/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/snopzyz/Documents/GitHub/zyzSTL/build/CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/mem_manage.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/snopzyz/Documents/GitHub/zyzSTL/build/CMakeFiles 0
 .PHONY : CMakeFiles/mem_manage.dir/rule
@@ -99,6 +101,32 @@ mem_manage: CMakeFiles/mem_manage.dir/rule
 CMakeFiles/mem_manage.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_manage.dir/build.make CMakeFiles/mem_manage.dir/clean
 .PHONY : CMakeFiles/mem_manage.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/stllib.dir
+
+# All Build rule for target.
+CMakeFiles/stllib.dir/all: CMakeFiles/mem_manage.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stllib.dir/build.make CMakeFiles/stllib.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stllib.dir/build.make CMakeFiles/stllib.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/snopzyz/Documents/GitHub/zyzSTL/build/CMakeFiles --progress-num=10,11 "Built target stllib"
+.PHONY : CMakeFiles/stllib.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/stllib.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/snopzyz/Documents/GitHub/zyzSTL/build/CMakeFiles 11
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/stllib.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/snopzyz/Documents/GitHub/zyzSTL/build/CMakeFiles 0
+.PHONY : CMakeFiles/stllib.dir/rule
+
+# Convenience name for target.
+stllib: CMakeFiles/stllib.dir/rule
+.PHONY : stllib
+
+# clean rule for target.
+CMakeFiles/stllib.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stllib.dir/build.make CMakeFiles/stllib.dir/clean
+.PHONY : CMakeFiles/stllib.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

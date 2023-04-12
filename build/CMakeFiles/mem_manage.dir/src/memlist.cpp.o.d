@@ -1,9 +1,7 @@
 CMakeFiles/mem_manage.dir/src/memlist.cpp.o: \
   /Users/snopzyz/Documents/GitHub/zyzSTL/src/memlist.cpp \
   /Users/snopzyz/Documents/GitHub/zyzSTL/src/../include/memlist.h \
-  /Users/snopzyz/Documents/GitHub/zyzSTL/src/../include/../src/memlist.h \
-  /Users/snopzyz/Documents/GitHub/zyzSTL/src/../include/memlistnode.h \
-  /Users/snopzyz/Documents/GitHub/zyzSTL/src/../include/../src/memlistnode.h \
+  /Users/snopzyz/Documents/GitHub/zyzSTL/include/memlistnode.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/cstdio \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__assert \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__config \
@@ -670,7 +668,6 @@ CMakeFiles/mem_manage.dir/src/memlist.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__functional/pointer_to_binary_function.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__functional/pointer_to_unary_function.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__functional/unary_negate.h \
-  /Users/snopzyz/Documents/GitHub/zyzSTL/src/memlist.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/iomanip \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/istream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/ostream \

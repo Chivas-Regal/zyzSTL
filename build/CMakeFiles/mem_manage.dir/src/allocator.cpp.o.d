@@ -1,12 +1,9 @@
 CMakeFiles/mem_manage.dir/src/allocator.cpp.o: \
   /Users/snopzyz/Documents/GitHub/zyzSTL/src/allocator.cpp \
-  /Users/snopzyz/Documents/GitHub/zyzSTL/src/allocator.h \
-  /Users/snopzyz/Documents/GitHub/zyzSTL/src/../include/mempool.h \
-  /Users/snopzyz/Documents/GitHub/zyzSTL/src/../include/../src/mempool.h \
-  /Users/snopzyz/Documents/GitHub/zyzSTL/src/../include/memlist_ff.h \
-  /Users/snopzyz/Documents/GitHub/zyzSTL/src/../include/../src/memlist_ff.h \
-  /Users/snopzyz/Documents/GitHub/zyzSTL/src/../include/memlistnode.h \
-  /Users/snopzyz/Documents/GitHub/zyzSTL/src/../include/../src/memlistnode.h \
+  /Users/snopzyz/Documents/GitHub/zyzSTL/src/../include/allocator.h \
+  /Users/snopzyz/Documents/GitHub/zyzSTL/include/mempool.h \
+  /Users/snopzyz/Documents/GitHub/zyzSTL/include/memlist_ff.h \
+  /Users/snopzyz/Documents/GitHub/zyzSTL/include/memlistnode.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/cstdio \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__assert \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__config \
@@ -46,8 +43,7 @@ CMakeFiles/mem_manage.dir/src/allocator.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/_ctermid.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_off_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_ssize_t.h \
-  /Users/snopzyz/Documents/GitHub/zyzSTL/src/../include/memlist.h \
-  /Users/snopzyz/Documents/GitHub/zyzSTL/src/../include/../src/memlist.h \
+  /Users/snopzyz/Documents/GitHub/zyzSTL/include/memlist.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/cstdint \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/stdint.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include/stdint.h \
@@ -675,10 +671,8 @@ CMakeFiles/mem_manage.dir/src/allocator.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__functional/pointer_to_binary_function.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__functional/pointer_to_unary_function.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__functional/unary_negate.h \
-  /Users/snopzyz/Documents/GitHub/zyzSTL/src/../include/memlist_bf.h \
-  /Users/snopzyz/Documents/GitHub/zyzSTL/src/../include/../src/memlist_bf.h \
-  /Users/snopzyz/Documents/GitHub/zyzSTL/src/../include/memlist_wf.h \
-  /Users/snopzyz/Documents/GitHub/zyzSTL/src/../include/../src/memlist_wf.h \
+  /Users/snopzyz/Documents/GitHub/zyzSTL/include/memlist_bf.h \
+  /Users/snopzyz/Documents/GitHub/zyzSTL/include/memlist_wf.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/string \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__ios/fpos.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__string/char_traits.h \

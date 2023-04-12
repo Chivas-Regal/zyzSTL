@@ -1,0 +1,47 @@
+[
+{
+  "directory": "/Users/snopzyz/Documents/GitHub/zyzSTL/build",
+  "command": "/usr/bin/clang++ -Dmem_manage_EXPORTS -I/Users/snopzyz/Documents/GitHub/zyzSTL/include -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.0 -fPIC -pthread -std=gnu++20 -o CMakeFiles/mem_manage.dir/src/allocator.cpp.o -c /Users/snopzyz/Documents/GitHub/zyzSTL/src/allocator.cpp",
+  "file": "/Users/snopzyz/Documents/GitHub/zyzSTL/src/allocator.cpp"
+},
+{
+  "directory": "/Users/snopzyz/Documents/GitHub/zyzSTL/build",
+  "command": "/usr/bin/clang++ -Dmem_manage_EXPORTS -I/Users/snopzyz/Documents/GitHub/zyzSTL/include -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.0 -fPIC -pthread -std=gnu++20 -o CMakeFiles/mem_manage.dir/src/memlist.cpp.o -c /Users/snopzyz/Documents/GitHub/zyzSTL/src/memlist.cpp",
+  "file": "/Users/snopzyz/Documents/GitHub/zyzSTL/src/memlist.cpp"
+},
+{
+  "directory": "/Users/snopzyz/Documents/GitHub/zyzSTL/build",
+  "command": "/usr/bin/clang++ -Dmem_manage_EXPORTS -I/Users/snopzyz/Documents/GitHub/zyzSTL/include -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.0 -fPIC -pthread -std=gnu++20 -o CMakeFiles/mem_manage.dir/src/memlist_bf.cpp.o -c /Users/snopzyz/Documents/GitHub/zyzSTL/src/memlist_bf.cpp",
+  "file": "/Users/snopzyz/Documents/GitHub/zyzSTL/src/memlist_bf.cpp"
+},
+{
+  "directory": "/Users/snopzyz/Documents/GitHub/zyzSTL/build",
+  "command": "/usr/bin/clang++ -Dmem_manage_EXPORTS -I/Users/snopzyz/Documents/GitHub/zyzSTL/include -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.0 -fPIC -pthread -std=gnu++20 -o CMakeFiles/mem_manage.dir/src/memlist_ff.cpp.o -c /Users/snopzyz/Documents/GitHub/zyzSTL/src/memlist_ff.cpp",
+  "file": "/Users/snopzyz/Documents/GitHub/zyzSTL/src/memlist_ff.cpp"
+},
+{
+  "directory": "/Users/snopzyz/Documents/GitHub/zyzSTL/build",
+  "command": "/usr/bin/clang++ -Dmem_manage_EXPORTS -I/Users/snopzyz/Documents/GitHub/zyzSTL/include -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.0 -fPIC -pthread -std=gnu++20 -o CMakeFiles/mem_manage.dir/src/memlist_wf.cpp.o -c /Users/snopzyz/Documents/GitHub/zyzSTL/src/memlist_wf.cpp",
+  "file": "/Users/snopzyz/Documents/GitHub/zyzSTL/src/memlist_wf.cpp"
+},
+{
+  "directory": "/Users/snopzyz/Documents/GitHub/zyzSTL/build",
+  "command": "/usr/bin/clang++ -Dmem_manage_EXPORTS -I/Users/snopzyz/Documents/GitHub/zyzSTL/include -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.0 -fPIC -pthread -std=gnu++20 -o CMakeFiles/mem_manage.dir/src/memlistnode.cpp.o -c /Users/snopzyz/Documents/GitHub/zyzSTL/src/memlistnode.cpp",
+  "file": "/Users/snopzyz/Documents/GitHub/zyzSTL/src/memlistnode.cpp"
+},
+{
+  "directory": "/Users/snopzyz/Documents/GitHub/zyzSTL/build",
+  "command": "/usr/bin/clang++ -Dmem_manage_EXPORTS -I/Users/snopzyz/Documents/GitHub/zyzSTL/include -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.0 -fPIC -pthread -std=gnu++20 -o CMakeFiles/mem_manage.dir/src/mempool.cpp.o -c /Users/snopzyz/Documents/GitHub/zyzSTL/src/mempool.cpp",
+  "file": "/Users/snopzyz/Documents/GitHub/zyzSTL/src/mempool.cpp"
+},
+{
+  "directory": "/Users/snopzyz/Documents/GitHub/zyzSTL/build",
+  "command": "/usr/bin/clang++ -Dmem_manage_EXPORTS -I/Users/snopzyz/Documents/GitHub/zyzSTL/include -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.0 -fPIC -pthread -std=gnu++20 -o CMakeFiles/mem_manage.dir/src/vector.cpp.o -c /Users/snopzyz/Documents/GitHub/zyzSTL/src/vector.cpp",
+  "file": "/Users/snopzyz/Documents/GitHub/zyzSTL/src/vector.cpp"
+},
+{
+  "directory": "/Users/snopzyz/Documents/GitHub/zyzSTL/build",
+  "command": "/usr/bin/clang++  -I/Users/snopzyz/Documents/GitHub/zyzSTL/include -isystem /usr/local/include/opencv4 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.0 -pthread -std=gnu++20 -o CMakeFiles/stllib.dir/example/main.cpp.o -c /Users/snopzyz/Documents/GitHub/zyzSTL/example/main.cpp",
+  "file": "/Users/snopzyz/Documents/GitHub/zyzSTL/example/main.cpp"
+}
+]

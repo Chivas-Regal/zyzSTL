@@ -129,29 +129,42 @@ mem_manage/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_manage.dir/build.make CMakeFiles/mem_manage.dir/build
 .PHONY : mem_manage/fast
 
-main.o: main.cpp.o
-.PHONY : main.o
+#=============================================================================
+# Target rules for targets named stllib
+
+# Build rule for target.
+stllib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 stllib
+.PHONY : stllib
+
+# fast build rule for target.
+stllib/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stllib.dir/build.make CMakeFiles/stllib.dir/build
+.PHONY : stllib/fast
+
+example/main.o: example/main.cpp.o
+.PHONY : example/main.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_manage.dir/build.make CMakeFiles/mem_manage.dir/main.cpp.o
-.PHONY : main.cpp.o
+example/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stllib.dir/build.make CMakeFiles/stllib.dir/example/main.cpp.o
+.PHONY : example/main.cpp.o
 
-main.i: main.cpp.i
-.PHONY : main.i
+example/main.i: example/main.cpp.i
+.PHONY : example/main.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_manage.dir/build.make CMakeFiles/mem_manage.dir/main.cpp.i
-.PHONY : main.cpp.i
+example/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stllib.dir/build.make CMakeFiles/stllib.dir/example/main.cpp.i
+.PHONY : example/main.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+example/main.s: example/main.cpp.s
+.PHONY : example/main.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_manage.dir/build.make CMakeFiles/mem_manage.dir/main.cpp.s
-.PHONY : main.cpp.s
+example/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stllib.dir/build.make CMakeFiles/stllib.dir/example/main.cpp.s
+.PHONY : example/main.cpp.s
 
 src/allocator.o: src/allocator.cpp.o
 .PHONY : src/allocator.o
@@ -354,9 +367,10 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... mem_manage"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... stllib"
+	@echo "... example/main.o"
+	@echo "... example/main.i"
+	@echo "... example/main.s"
 	@echo "... src/allocator.o"
 	@echo "... src/allocator.i"
 	@echo "... src/allocator.s"

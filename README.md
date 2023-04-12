@@ -1,10 +1,12 @@
 # 使用
 
-本项目使用 cmake   
+本项目是对 STL 库的简单实现   
+项目结构使用 CMAKE 开发     
 
 编译
 
 ```
+$ cmake -B build
 $ cd build
 $ make
 ```
@@ -12,7 +14,7 @@ $ make
 运行
 
 ```
-$ mem_manage
+$ ./stllib
 ```
 
 # 工具

@@ -1,3 +1,4 @@
 /Users/snopzyz/Documents/GitHub/zyzSTL/build/CMakeFiles/mem_manage.dir
+/Users/snopzyz/Documents/GitHub/zyzSTL/build/CMakeFiles/stllib.dir
 /Users/snopzyz/Documents/GitHub/zyzSTL/build/CMakeFiles/edit_cache.dir
 /Users/snopzyz/Documents/GitHub/zyzSTL/build/CMakeFiles/rebuild_cache.dir
