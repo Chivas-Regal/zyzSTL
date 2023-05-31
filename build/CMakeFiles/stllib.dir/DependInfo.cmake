@@ -13,7 +13,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/Users/snopzyz/Documents/GitHub/zyzSTL/build/CMakeFiles/mem_manage.dir/DependInfo.cmake"
+  "/Users/snopzyz/Documents/GitHub/zyzSTL/build/CMakeFiles/zyzstl.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

@@ -4,9 +4,9 @@
 # compile CXX with /usr/bin/clang++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/snopzyz/Documents/GitHub/zyzSTL/include -isystem /usr/local/include/opencv4
+CXX_INCLUDES = -I/Users/snopzyz/Documents/GitHub/zyzSTL/include -I/Users/snopzyz/Documents/GitHub/zyzSTL/include/containers -I/Users/snopzyz/Documents/GitHub/zyzSTL/include/mem-alloc
 
-CXX_FLAGSarm64 = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.0 -pthread -std=gnu++20
+CXX_FLAGSarm64 =  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.0 -std=gnu++20
 
-CXX_FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.0 -pthread -std=gnu++20
+CXX_FLAGS =  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.0 -std=gnu++20
 

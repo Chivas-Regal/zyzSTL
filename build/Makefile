@@ -117,17 +117,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named mem_manage
+# Target rules for targets named zyzstl
 
 # Build rule for target.
-mem_manage: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mem_manage
-.PHONY : mem_manage
+zyzstl: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 zyzstl
+.PHONY : zyzstl
 
 # fast build rule for target.
-mem_manage/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_manage.dir/build.make CMakeFiles/mem_manage.dir/build
-.PHONY : mem_manage/fast
+zyzstl/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zyzstl.dir/build.make CMakeFiles/zyzstl.dir/build
+.PHONY : zyzstl/fast
 
 #=============================================================================
 # Target rules for targets named stllib
@@ -166,197 +166,245 @@ example/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/stllib.dir/build.make CMakeFiles/stllib.dir/example/main.cpp.s
 .PHONY : example/main.cpp.s
 
-src/allocator.o: src/allocator.cpp.o
-.PHONY : src/allocator.o
+src/containers/stack.o: src/containers/stack.cpp.o
+.PHONY : src/containers/stack.o
 
 # target to build an object file
-src/allocator.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_manage.dir/build.make CMakeFiles/mem_manage.dir/src/allocator.cpp.o
-.PHONY : src/allocator.cpp.o
+src/containers/stack.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zyzstl.dir/build.make CMakeFiles/zyzstl.dir/src/containers/stack.cpp.o
+.PHONY : src/containers/stack.cpp.o
 
-src/allocator.i: src/allocator.cpp.i
-.PHONY : src/allocator.i
+src/containers/stack.i: src/containers/stack.cpp.i
+.PHONY : src/containers/stack.i
 
 # target to preprocess a source file
-src/allocator.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_manage.dir/build.make CMakeFiles/mem_manage.dir/src/allocator.cpp.i
-.PHONY : src/allocator.cpp.i
+src/containers/stack.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zyzstl.dir/build.make CMakeFiles/zyzstl.dir/src/containers/stack.cpp.i
+.PHONY : src/containers/stack.cpp.i
 
-src/allocator.s: src/allocator.cpp.s
-.PHONY : src/allocator.s
+src/containers/stack.s: src/containers/stack.cpp.s
+.PHONY : src/containers/stack.s
 
 # target to generate assembly for a file
-src/allocator.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_manage.dir/build.make CMakeFiles/mem_manage.dir/src/allocator.cpp.s
-.PHONY : src/allocator.cpp.s
+src/containers/stack.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zyzstl.dir/build.make CMakeFiles/zyzstl.dir/src/containers/stack.cpp.s
+.PHONY : src/containers/stack.cpp.s
 
-src/memlist.o: src/memlist.cpp.o
-.PHONY : src/memlist.o
+src/containers/trie.o: src/containers/trie.cpp.o
+.PHONY : src/containers/trie.o
 
 # target to build an object file
-src/memlist.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_manage.dir/build.make CMakeFiles/mem_manage.dir/src/memlist.cpp.o
-.PHONY : src/memlist.cpp.o
+src/containers/trie.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zyzstl.dir/build.make CMakeFiles/zyzstl.dir/src/containers/trie.cpp.o
+.PHONY : src/containers/trie.cpp.o
 
-src/memlist.i: src/memlist.cpp.i
-.PHONY : src/memlist.i
+src/containers/trie.i: src/containers/trie.cpp.i
+.PHONY : src/containers/trie.i
 
 # target to preprocess a source file
-src/memlist.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_manage.dir/build.make CMakeFiles/mem_manage.dir/src/memlist.cpp.i
-.PHONY : src/memlist.cpp.i
+src/containers/trie.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zyzstl.dir/build.make CMakeFiles/zyzstl.dir/src/containers/trie.cpp.i
+.PHONY : src/containers/trie.cpp.i
 
-src/memlist.s: src/memlist.cpp.s
-.PHONY : src/memlist.s
+src/containers/trie.s: src/containers/trie.cpp.s
+.PHONY : src/containers/trie.s
 
 # target to generate assembly for a file
-src/memlist.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_manage.dir/build.make CMakeFiles/mem_manage.dir/src/memlist.cpp.s
-.PHONY : src/memlist.cpp.s
+src/containers/trie.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zyzstl.dir/build.make CMakeFiles/zyzstl.dir/src/containers/trie.cpp.s
+.PHONY : src/containers/trie.cpp.s
 
-src/memlist_bf.o: src/memlist_bf.cpp.o
-.PHONY : src/memlist_bf.o
+src/containers/vector.o: src/containers/vector.cpp.o
+.PHONY : src/containers/vector.o
 
 # target to build an object file
-src/memlist_bf.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_manage.dir/build.make CMakeFiles/mem_manage.dir/src/memlist_bf.cpp.o
-.PHONY : src/memlist_bf.cpp.o
+src/containers/vector.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zyzstl.dir/build.make CMakeFiles/zyzstl.dir/src/containers/vector.cpp.o
+.PHONY : src/containers/vector.cpp.o
 
-src/memlist_bf.i: src/memlist_bf.cpp.i
-.PHONY : src/memlist_bf.i
+src/containers/vector.i: src/containers/vector.cpp.i
+.PHONY : src/containers/vector.i
 
 # target to preprocess a source file
-src/memlist_bf.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_manage.dir/build.make CMakeFiles/mem_manage.dir/src/memlist_bf.cpp.i
-.PHONY : src/memlist_bf.cpp.i
+src/containers/vector.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zyzstl.dir/build.make CMakeFiles/zyzstl.dir/src/containers/vector.cpp.i
+.PHONY : src/containers/vector.cpp.i
 
-src/memlist_bf.s: src/memlist_bf.cpp.s
-.PHONY : src/memlist_bf.s
+src/containers/vector.s: src/containers/vector.cpp.s
+.PHONY : src/containers/vector.s
 
 # target to generate assembly for a file
-src/memlist_bf.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_manage.dir/build.make CMakeFiles/mem_manage.dir/src/memlist_bf.cpp.s
-.PHONY : src/memlist_bf.cpp.s
+src/containers/vector.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zyzstl.dir/build.make CMakeFiles/zyzstl.dir/src/containers/vector.cpp.s
+.PHONY : src/containers/vector.cpp.s
 
-src/memlist_ff.o: src/memlist_ff.cpp.o
-.PHONY : src/memlist_ff.o
+src/mem-alloc/allocator.o: src/mem-alloc/allocator.cpp.o
+.PHONY : src/mem-alloc/allocator.o
 
 # target to build an object file
-src/memlist_ff.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_manage.dir/build.make CMakeFiles/mem_manage.dir/src/memlist_ff.cpp.o
-.PHONY : src/memlist_ff.cpp.o
+src/mem-alloc/allocator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zyzstl.dir/build.make CMakeFiles/zyzstl.dir/src/mem-alloc/allocator.cpp.o
+.PHONY : src/mem-alloc/allocator.cpp.o
 
-src/memlist_ff.i: src/memlist_ff.cpp.i
-.PHONY : src/memlist_ff.i
+src/mem-alloc/allocator.i: src/mem-alloc/allocator.cpp.i
+.PHONY : src/mem-alloc/allocator.i
 
 # target to preprocess a source file
-src/memlist_ff.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_manage.dir/build.make CMakeFiles/mem_manage.dir/src/memlist_ff.cpp.i
-.PHONY : src/memlist_ff.cpp.i
+src/mem-alloc/allocator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zyzstl.dir/build.make CMakeFiles/zyzstl.dir/src/mem-alloc/allocator.cpp.i
+.PHONY : src/mem-alloc/allocator.cpp.i
 
-src/memlist_ff.s: src/memlist_ff.cpp.s
-.PHONY : src/memlist_ff.s
+src/mem-alloc/allocator.s: src/mem-alloc/allocator.cpp.s
+.PHONY : src/mem-alloc/allocator.s
 
 # target to generate assembly for a file
-src/memlist_ff.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_manage.dir/build.make CMakeFiles/mem_manage.dir/src/memlist_ff.cpp.s
-.PHONY : src/memlist_ff.cpp.s
+src/mem-alloc/allocator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zyzstl.dir/build.make CMakeFiles/zyzstl.dir/src/mem-alloc/allocator.cpp.s
+.PHONY : src/mem-alloc/allocator.cpp.s
 
-src/memlist_wf.o: src/memlist_wf.cpp.o
-.PHONY : src/memlist_wf.o
+src/mem-alloc/memlist.o: src/mem-alloc/memlist.cpp.o
+.PHONY : src/mem-alloc/memlist.o
 
 # target to build an object file
-src/memlist_wf.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_manage.dir/build.make CMakeFiles/mem_manage.dir/src/memlist_wf.cpp.o
-.PHONY : src/memlist_wf.cpp.o
+src/mem-alloc/memlist.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zyzstl.dir/build.make CMakeFiles/zyzstl.dir/src/mem-alloc/memlist.cpp.o
+.PHONY : src/mem-alloc/memlist.cpp.o
 
-src/memlist_wf.i: src/memlist_wf.cpp.i
-.PHONY : src/memlist_wf.i
+src/mem-alloc/memlist.i: src/mem-alloc/memlist.cpp.i
+.PHONY : src/mem-alloc/memlist.i
 
 # target to preprocess a source file
-src/memlist_wf.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_manage.dir/build.make CMakeFiles/mem_manage.dir/src/memlist_wf.cpp.i
-.PHONY : src/memlist_wf.cpp.i
+src/mem-alloc/memlist.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zyzstl.dir/build.make CMakeFiles/zyzstl.dir/src/mem-alloc/memlist.cpp.i
+.PHONY : src/mem-alloc/memlist.cpp.i
 
-src/memlist_wf.s: src/memlist_wf.cpp.s
-.PHONY : src/memlist_wf.s
+src/mem-alloc/memlist.s: src/mem-alloc/memlist.cpp.s
+.PHONY : src/mem-alloc/memlist.s
 
 # target to generate assembly for a file
-src/memlist_wf.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_manage.dir/build.make CMakeFiles/mem_manage.dir/src/memlist_wf.cpp.s
-.PHONY : src/memlist_wf.cpp.s
+src/mem-alloc/memlist.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zyzstl.dir/build.make CMakeFiles/zyzstl.dir/src/mem-alloc/memlist.cpp.s
+.PHONY : src/mem-alloc/memlist.cpp.s
 
-src/memlistnode.o: src/memlistnode.cpp.o
-.PHONY : src/memlistnode.o
+src/mem-alloc/memlist_bf.o: src/mem-alloc/memlist_bf.cpp.o
+.PHONY : src/mem-alloc/memlist_bf.o
 
 # target to build an object file
-src/memlistnode.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_manage.dir/build.make CMakeFiles/mem_manage.dir/src/memlistnode.cpp.o
-.PHONY : src/memlistnode.cpp.o
+src/mem-alloc/memlist_bf.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zyzstl.dir/build.make CMakeFiles/zyzstl.dir/src/mem-alloc/memlist_bf.cpp.o
+.PHONY : src/mem-alloc/memlist_bf.cpp.o
 
-src/memlistnode.i: src/memlistnode.cpp.i
-.PHONY : src/memlistnode.i
+src/mem-alloc/memlist_bf.i: src/mem-alloc/memlist_bf.cpp.i
+.PHONY : src/mem-alloc/memlist_bf.i
 
 # target to preprocess a source file
-src/memlistnode.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_manage.dir/build.make CMakeFiles/mem_manage.dir/src/memlistnode.cpp.i
-.PHONY : src/memlistnode.cpp.i
+src/mem-alloc/memlist_bf.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zyzstl.dir/build.make CMakeFiles/zyzstl.dir/src/mem-alloc/memlist_bf.cpp.i
+.PHONY : src/mem-alloc/memlist_bf.cpp.i
 
-src/memlistnode.s: src/memlistnode.cpp.s
-.PHONY : src/memlistnode.s
+src/mem-alloc/memlist_bf.s: src/mem-alloc/memlist_bf.cpp.s
+.PHONY : src/mem-alloc/memlist_bf.s
 
 # target to generate assembly for a file
-src/memlistnode.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_manage.dir/build.make CMakeFiles/mem_manage.dir/src/memlistnode.cpp.s
-.PHONY : src/memlistnode.cpp.s
+src/mem-alloc/memlist_bf.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zyzstl.dir/build.make CMakeFiles/zyzstl.dir/src/mem-alloc/memlist_bf.cpp.s
+.PHONY : src/mem-alloc/memlist_bf.cpp.s
 
-src/mempool.o: src/mempool.cpp.o
-.PHONY : src/mempool.o
+src/mem-alloc/memlist_ff.o: src/mem-alloc/memlist_ff.cpp.o
+.PHONY : src/mem-alloc/memlist_ff.o
 
 # target to build an object file
-src/mempool.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_manage.dir/build.make CMakeFiles/mem_manage.dir/src/mempool.cpp.o
-.PHONY : src/mempool.cpp.o
+src/mem-alloc/memlist_ff.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zyzstl.dir/build.make CMakeFiles/zyzstl.dir/src/mem-alloc/memlist_ff.cpp.o
+.PHONY : src/mem-alloc/memlist_ff.cpp.o
 
-src/mempool.i: src/mempool.cpp.i
-.PHONY : src/mempool.i
+src/mem-alloc/memlist_ff.i: src/mem-alloc/memlist_ff.cpp.i
+.PHONY : src/mem-alloc/memlist_ff.i
 
 # target to preprocess a source file
-src/mempool.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_manage.dir/build.make CMakeFiles/mem_manage.dir/src/mempool.cpp.i
-.PHONY : src/mempool.cpp.i
+src/mem-alloc/memlist_ff.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zyzstl.dir/build.make CMakeFiles/zyzstl.dir/src/mem-alloc/memlist_ff.cpp.i
+.PHONY : src/mem-alloc/memlist_ff.cpp.i
 
-src/mempool.s: src/mempool.cpp.s
-.PHONY : src/mempool.s
+src/mem-alloc/memlist_ff.s: src/mem-alloc/memlist_ff.cpp.s
+.PHONY : src/mem-alloc/memlist_ff.s
 
 # target to generate assembly for a file
-src/mempool.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_manage.dir/build.make CMakeFiles/mem_manage.dir/src/mempool.cpp.s
-.PHONY : src/mempool.cpp.s
+src/mem-alloc/memlist_ff.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zyzstl.dir/build.make CMakeFiles/zyzstl.dir/src/mem-alloc/memlist_ff.cpp.s
+.PHONY : src/mem-alloc/memlist_ff.cpp.s
 
-src/vector.o: src/vector.cpp.o
-.PHONY : src/vector.o
+src/mem-alloc/memlist_wf.o: src/mem-alloc/memlist_wf.cpp.o
+.PHONY : src/mem-alloc/memlist_wf.o
 
 # target to build an object file
-src/vector.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_manage.dir/build.make CMakeFiles/mem_manage.dir/src/vector.cpp.o
-.PHONY : src/vector.cpp.o
+src/mem-alloc/memlist_wf.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zyzstl.dir/build.make CMakeFiles/zyzstl.dir/src/mem-alloc/memlist_wf.cpp.o
+.PHONY : src/mem-alloc/memlist_wf.cpp.o
 
-src/vector.i: src/vector.cpp.i
-.PHONY : src/vector.i
+src/mem-alloc/memlist_wf.i: src/mem-alloc/memlist_wf.cpp.i
+.PHONY : src/mem-alloc/memlist_wf.i
 
 # target to preprocess a source file
-src/vector.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_manage.dir/build.make CMakeFiles/mem_manage.dir/src/vector.cpp.i
-.PHONY : src/vector.cpp.i
+src/mem-alloc/memlist_wf.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zyzstl.dir/build.make CMakeFiles/zyzstl.dir/src/mem-alloc/memlist_wf.cpp.i
+.PHONY : src/mem-alloc/memlist_wf.cpp.i
 
-src/vector.s: src/vector.cpp.s
-.PHONY : src/vector.s
+src/mem-alloc/memlist_wf.s: src/mem-alloc/memlist_wf.cpp.s
+.PHONY : src/mem-alloc/memlist_wf.s
 
 # target to generate assembly for a file
-src/vector.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_manage.dir/build.make CMakeFiles/mem_manage.dir/src/vector.cpp.s
-.PHONY : src/vector.cpp.s
+src/mem-alloc/memlist_wf.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zyzstl.dir/build.make CMakeFiles/zyzstl.dir/src/mem-alloc/memlist_wf.cpp.s
+.PHONY : src/mem-alloc/memlist_wf.cpp.s
+
+src/mem-alloc/memlistnode.o: src/mem-alloc/memlistnode.cpp.o
+.PHONY : src/mem-alloc/memlistnode.o
+
+# target to build an object file
+src/mem-alloc/memlistnode.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zyzstl.dir/build.make CMakeFiles/zyzstl.dir/src/mem-alloc/memlistnode.cpp.o
+.PHONY : src/mem-alloc/memlistnode.cpp.o
+
+src/mem-alloc/memlistnode.i: src/mem-alloc/memlistnode.cpp.i
+.PHONY : src/mem-alloc/memlistnode.i
+
+# target to preprocess a source file
+src/mem-alloc/memlistnode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zyzstl.dir/build.make CMakeFiles/zyzstl.dir/src/mem-alloc/memlistnode.cpp.i
+.PHONY : src/mem-alloc/memlistnode.cpp.i
+
+src/mem-alloc/memlistnode.s: src/mem-alloc/memlistnode.cpp.s
+.PHONY : src/mem-alloc/memlistnode.s
+
+# target to generate assembly for a file
+src/mem-alloc/memlistnode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zyzstl.dir/build.make CMakeFiles/zyzstl.dir/src/mem-alloc/memlistnode.cpp.s
+.PHONY : src/mem-alloc/memlistnode.cpp.s
+
+src/mem-alloc/mempool.o: src/mem-alloc/mempool.cpp.o
+.PHONY : src/mem-alloc/mempool.o
+
+# target to build an object file
+src/mem-alloc/mempool.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zyzstl.dir/build.make CMakeFiles/zyzstl.dir/src/mem-alloc/mempool.cpp.o
+.PHONY : src/mem-alloc/mempool.cpp.o
+
+src/mem-alloc/mempool.i: src/mem-alloc/mempool.cpp.i
+.PHONY : src/mem-alloc/mempool.i
+
+# target to preprocess a source file
+src/mem-alloc/mempool.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zyzstl.dir/build.make CMakeFiles/zyzstl.dir/src/mem-alloc/mempool.cpp.i
+.PHONY : src/mem-alloc/mempool.cpp.i
+
+src/mem-alloc/mempool.s: src/mem-alloc/mempool.cpp.s
+.PHONY : src/mem-alloc/mempool.s
+
+# target to generate assembly for a file
+src/mem-alloc/mempool.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zyzstl.dir/build.make CMakeFiles/zyzstl.dir/src/mem-alloc/mempool.cpp.s
+.PHONY : src/mem-alloc/mempool.cpp.s
 
 # Help Target
 help:
@@ -366,35 +414,41 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... mem_manage"
 	@echo "... stllib"
+	@echo "... zyzstl"
 	@echo "... example/main.o"
 	@echo "... example/main.i"
 	@echo "... example/main.s"
-	@echo "... src/allocator.o"
-	@echo "... src/allocator.i"
-	@echo "... src/allocator.s"
-	@echo "... src/memlist.o"
-	@echo "... src/memlist.i"
-	@echo "... src/memlist.s"
-	@echo "... src/memlist_bf.o"
-	@echo "... src/memlist_bf.i"
-	@echo "... src/memlist_bf.s"
-	@echo "... src/memlist_ff.o"
-	@echo "... src/memlist_ff.i"
-	@echo "... src/memlist_ff.s"
-	@echo "... src/memlist_wf.o"
-	@echo "... src/memlist_wf.i"
-	@echo "... src/memlist_wf.s"
-	@echo "... src/memlistnode.o"
-	@echo "... src/memlistnode.i"
-	@echo "... src/memlistnode.s"
-	@echo "... src/mempool.o"
-	@echo "... src/mempool.i"
-	@echo "... src/mempool.s"
-	@echo "... src/vector.o"
-	@echo "... src/vector.i"
-	@echo "... src/vector.s"
+	@echo "... src/containers/stack.o"
+	@echo "... src/containers/stack.i"
+	@echo "... src/containers/stack.s"
+	@echo "... src/containers/trie.o"
+	@echo "... src/containers/trie.i"
+	@echo "... src/containers/trie.s"
+	@echo "... src/containers/vector.o"
+	@echo "... src/containers/vector.i"
+	@echo "... src/containers/vector.s"
+	@echo "... src/mem-alloc/allocator.o"
+	@echo "... src/mem-alloc/allocator.i"
+	@echo "... src/mem-alloc/allocator.s"
+	@echo "... src/mem-alloc/memlist.o"
+	@echo "... src/mem-alloc/memlist.i"
+	@echo "... src/mem-alloc/memlist.s"
+	@echo "... src/mem-alloc/memlist_bf.o"
+	@echo "... src/mem-alloc/memlist_bf.i"
+	@echo "... src/mem-alloc/memlist_bf.s"
+	@echo "... src/mem-alloc/memlist_ff.o"
+	@echo "... src/mem-alloc/memlist_ff.i"
+	@echo "... src/mem-alloc/memlist_ff.s"
+	@echo "... src/mem-alloc/memlist_wf.o"
+	@echo "... src/mem-alloc/memlist_wf.i"
+	@echo "... src/mem-alloc/memlist_wf.s"
+	@echo "... src/mem-alloc/memlistnode.o"
+	@echo "... src/mem-alloc/memlistnode.i"
+	@echo "... src/mem-alloc/memlistnode.s"
+	@echo "... src/mem-alloc/mempool.o"
+	@echo "... src/mem-alloc/mempool.i"
+	@echo "... src/mem-alloc/mempool.s"
 .PHONY : help
 
 
